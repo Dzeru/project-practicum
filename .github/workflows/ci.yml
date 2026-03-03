@@ -47,4 +47,4 @@ jobs:
 
       # Сборка (если нужно отдельно от check)
       - name: Build
-        run: ./gradlew --no-daemon spotless::spotlessCheck
+        run: ./gradlew --no-daemon spotlessCheck
